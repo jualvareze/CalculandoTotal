@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px black;
+    background-color: beige;
+    border-radius: 2%;
+    width: 250px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-title{
+    margin: 10px;
+}
+
+.card button{
+    margin: 10px;
+}
+.card input{
+    margin: 5px;
+}
+
+.calculos{
+    padding: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.calculos li {
+    padding-bottom: 10px;
+}
+
+#circulocolor {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
